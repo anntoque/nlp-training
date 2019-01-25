@@ -1,3 +1,3 @@
 # nlp-training
 # reference
-http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec00
+- http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec00
