@@ -1,4 +1,4 @@
-input_str = ('paraparaparadise','paragraph')
+input_text = ('paraparaparadise','paragraph')
 
 def ngram(n, words):
     answer_list = []
@@ -6,8 +6,8 @@ def ngram(n, words):
         answer_list.append(words[index:index+n])
     return answer_list
 
-list_text_x = ngram(2,input_str[0])
-list_text_y = ngram(2,input_str[1])
+list_text_x = ngram(2,input_text[0])
+list_text_y = ngram(2,input_text[1])
 
 set_x = set(list_text_x)
 set_y = set(list_text_y)
