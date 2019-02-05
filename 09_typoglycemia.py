@@ -2,9 +2,8 @@ import random
 
 question_text = "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
 
-# スペースで区切られた単語列に対して
-# 各単語の先頭と末尾の文字は残し
-# それ以外はランダムに並び替える
+# TODO: シャッフル処理は実装したので、文字列をリストで開始、空白区切りで結合する処理を実装
+# 入力した文章にタイポグリセミアを適応
 
 def typoglycemia(input_text):
     cipher_text = "" 
